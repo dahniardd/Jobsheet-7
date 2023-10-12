@@ -3,7 +3,7 @@ public class WhileGaji06 {
     public static void main(String[]args){
         Scanner scan = new Scanner (System.in);
 
-        int jumlahKaryawan, jumlahJamLembur;
+        int jumlahKaryawan, jumlahJamLembur=0;
         double gajiLembur=0, totalGajiLembur=0;
         String jabatan;
 
