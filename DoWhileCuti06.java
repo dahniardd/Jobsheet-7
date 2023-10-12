@@ -21,14 +21,13 @@ public class DoWhileCuti06 {
                     jatahcuti -= jumlahhari;
                     System.out.println("Sisa jatah cuti : " + jatahcuti);
                 } else {
-                    System.out.println("Sisa cuti yang anda minta melebihi jatah cuti anda");
-                    break;
+                    System.out.println("Jumlah cuti yang anda minta melebihi jatah cuti anda");
                 }
-            } else {
-                System.out.println("baik");
+            }else {
+                System.out.println("");
                 break;
-
             }
+
         } while (jatahcuti > 0);
     }
 }
