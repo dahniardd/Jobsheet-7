@@ -27,6 +27,7 @@ public class DoWhileCuti06 {
             } else {
                 System.out.println("baik");
                 break;
+
             }
         } while (jatahcuti > 0);
     }
